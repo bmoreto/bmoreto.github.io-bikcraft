@@ -1,0 +1,28 @@
+.escolha-titulo {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.bicicletas-lista {
+  display: flex;
+  gap: 40px;
+  object-fit: fill;
+  justify-content: center;
+}
+
+.bicicletas-lista p {
+  margin-left: 20px;
+  position: relative;
+}
+
+.bicicletas-lista p::before {
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 8px;
+  left: -20px;
+  top: 15px;
+  background: var(--p1);
+}

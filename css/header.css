@@ -1,0 +1,68 @@
+.header-bg {
+  background: var(--b);
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 40px;
+}
+
+.menu a {
+  color: var(--w);
+  padding: 16px 0px;
+  display: inline-blocks;
+  border-radius: 4px;
+  transition: 0.3s;
+  position: relative;
+}
+
+.menu a:hover {
+  background: var(--c10);
+}
+
+.menu a:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background: var(--w);
+  margin-top: 4px;
+}
+
+.menu a:hover:after {
+  width: 100%;
+  position: absolute;
+}
+
+@media (max-width: 800px) {
+  .menu {
+    gap: 20px;
+  }
+  .menu a {
+    background: var(--c11);
+    padding: 12px 16px;
+    border-radius: 4px;
+  }
+  .menu a:after {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .menu {
+    gap: 12px;
+  }
+  .menu a {
+    padding: 8px 12px;
+  }
+}

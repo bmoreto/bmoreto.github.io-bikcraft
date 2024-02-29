@@ -1,0 +1,21 @@
+.introducao-bg {
+  background: var(--b);
+}
+
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 40px;
+}
+
+.introducao-conteudo {
+  align-self: end;
+}
+
+#introducao .introducao-conteudo h1 {
+  margin-bottom: 32px;
+}
+
+#introducao .introducao-conteudo p {
+  margin-bottom: 32px;
+}
