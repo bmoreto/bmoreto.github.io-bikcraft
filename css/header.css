@@ -26,10 +26,6 @@
   position: relative;
 }
 
-.menu a:hover {
-  background: var(--c10);
-}
-
 .menu a:after {
   content: "";
   display: block;

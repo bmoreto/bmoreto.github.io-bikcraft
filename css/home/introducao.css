@@ -10,6 +10,7 @@
 
 .introducao-conteudo {
   align-self: end;
+  padding-bottom: 80px;
 }
 
 #introducao .introducao-conteudo h1 {
@@ -17,5 +18,9 @@
 }
 
 #introducao .introducao-conteudo p {
-  margin-bottom: 32px;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  background: linear-gradient(#ffb60d, #e59317);
 }
