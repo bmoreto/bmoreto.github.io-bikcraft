@@ -1,16 +1,19 @@
 .introducao-bg {
   background: var(--b);
+  box-shadow: inset 0 -120px var(--w);
 }
 
 .introducao {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0 40px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .introducao-conteudo {
   align-self: end;
-  padding-bottom: 80px;
+  padding-bottom: 200px;
 }
 
 #introducao .introducao-conteudo h1 {
@@ -23,4 +26,9 @@
 
 .btn:hover {
   background: linear-gradient(#ffb60d, #e59317);
+}
+
+.introducao img {
+  height: 100%;
+  object-fit: cover;
 }

@@ -11,8 +11,6 @@ a {
 .container {
   max-width: 1200px;
   margin: auto auto;
-  padding-top: 20px;
-  padding-bottom: 120px;
   box-sizing: border-box;
 }
 
