@@ -32,3 +32,29 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media (max-width: 800px) {
+  .introducao-bg {
+    background: var(--c11);
+    padding-top: 40px;
+    box-shadow: inset 0 -60px var(--w);
+  }
+  .introducao {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .introducao-conteudo {
+    padding-bottom: 0px;
+  }
+  #introducao .introducao-conteudo h1 {
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .introducao-bg {
+    background: var(--c11);
+    padding-top: 40px;
+    box-shadow: inset 0 -60px var(--w);
+  }
+}
