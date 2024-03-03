@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
+<body class="home">
   <header class="header-bg">
     <div class="header container">
       <a href="./"><img src="./img/bikcraft.svg" alt="Bikcraft"></a>
@@ -27,7 +27,7 @@
   </header>
 
   <main>
-    <section class="introducao-bg" id="introducao">
+    <section class="introducao-bg">
       <div class="introducao container">
         <div class="introducao-conteudo">
           <h1 class="w font-1-xxl">Bicicletas feitas sob medida<span class="p1">.</span></h1>
@@ -42,58 +42,66 @@
       </div>
     </section>
 
-    <section class="escolha" id="escolha">
-      <h1 class="b font-1-xxl escolha-titulo">escolha a sua<span class="p1">.</span></h1>
+    <article class="escolha">
+      <h2 class="b font-1-xxl">escolha a sua<span class="p1">.</span></h2>
       <nav>
         <ul class="bicicletas-lista">
           <li>
-            <img src="./img/bicicletas/magic-home.jpg" alt="bicicleta magic" width="460" height="520">
-            <p><a class="font-1-xl c11" href="#"> Magic Might</a></p>
-            <span class="font-2-m c8">R$ 2499</span>
+            <a href="./magic.html">
+              <img src="./img/bicicletas/magic-home.jpg" alt="bicicleta magic" width="460" height="520">
+              <h3 class="font-1-xl c11">Magic Might</h3>
+              <span class="font-2-m c8">R$ 2499</span>
+            </a>
           </li>
 
           <li>
-            <img src="./img/bicicletas/nimbus-home.jpg" alt="bicicleta nimbus" width="460" height="520">
-            <p><a class="font-1-xl c11" href="#">Nimbus Stark</a></p>
-            <span class="font-2-m c8">R$ 4999</span>
+            <a href="./nimbus.html">
+              <img src="./img/bicicletas/nimbus-home.jpg" alt="bicicleta nimbus" width="460" height="520">
+              <h3 class="font-1-xl c11">Nimbus Stark</h3>
+              <span class="font-2-m c8">R$ 4999</span>
+            </a>
           </li>
 
           <li>
-            <img src="./img/bicicletas/nebula-home.jpg" alt="bicicleta nebula" width="460" height="520">
-            <p><a class="font-1-xl c11" href="#">Nebula Cosmic</a></p>
-            <span class="font-2-m c8">R$ 3999</span>
+            <a href="./nebula.html">
+              <img src="./img/bicicletas/nebula-home.jpg" alt="bicicleta nebula" width="460" height="520">
+              <h3 class="font-1-xl c11">Nebula Cosmic</h3>
+              <span class="font-2-m c8">R$ 3999</span>
+            </a>
           </li>
         </ul>
       </nav>
-    </section>
+    </article>
 
-    <section class="tecnologia-bg" id="tecnologia">
+    <article class="tecnologia-bg">
       <div class="tecnologia container">
         <div class="tecnologia-informacoes">
-          <p class="font-2-l-b c5">Tecnologia avançada</p>
-          <h1 class="w font-1-xxl escolha-titulo">você escolhe as suas cores e componentes<span class="p1">.</span></h1>
+          <span class="font-2-l-b c5">Tecnologia avançada</span>
+          <h2 class="w font-1-xxl">você escolhe as suas cores e componentes<span class="p1">.</span></h2>
           <p class="font-2-l c5">Cada Bikcraft é única e possui a sua identidade. As medidas serão exatas para o seu corpo e altura, garantindo maior conforto e ergonomia na sua pedalada. Você pode também personalizar completamente as suas cores.</p>
-          <a class="p1" href="#">Escolha um modelo</a>
-          <ul class="tecnologia-lista">
-            <li>
+          <a class="link" href="./bicicletas.html">Escolha um modelo</a>
+
+          <div class="tecnologia-lista">
+            <div>
               <img src="./img/icones/eletrica.svg" alt="motor elétrico">
-              <p class="font-2-l w">Motor elétrico</p>
+              <h3 class="font-2-m w">Motor elétrico</h3>
               <p class="font-2-s c5">Toda Bikcraft é equipada com um motor elétrico que possui duração de até 120h. A bateria é recarregada com a sua energia gasta ao pedalar.</p>
-            </li>
-            <li>
+            </div>
+            <div>
               <img src="./img/icones/rastreador.svg" alt="rastreador">
-              <p class="font-2-l w">Rastreador</p>
+              <h3 class="font-2-m w">Rastreador</h3>
               <p class="font-2-s c5">Sabemos o quão preciosa é a sua Bikcraft, por isso adicionamos rastreadores e sistemas anti-furto para garantir o seu sossego.</p>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
-        <div class="imagem">
+
+        <div class="tecnologia-imagem">
           <img src="./img/fotos/tecnologia.jpg" alt="tecnologia">
         </div>
-    </section>
+    </article>
 
-    <section class="parceiros container" id="parceiros">
-      <h1 class="b font-1-xxl escolha-titulo">nossos parceiros<span class="p1">.</span></h1>
+    <section class="parceiros" aria-label="nossos parceiros">
+      <h2 class="b font-1-xxl">nossos parceiros<span class="p1">.</span></h2>
       <ul class="parceiros-lista">
         <li><img src="./img/parceiros/caravan.svg" alt="parceiro caravan"></li>
         <li><img src="./img/parceiros/ranek.svg" alt="parceiro ranek"></li>
