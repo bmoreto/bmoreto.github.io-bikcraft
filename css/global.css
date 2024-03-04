@@ -27,6 +27,16 @@ a {
   padding: 16px 32px;
   text-transform: uppercase;
   border-radius: 4px;
+  max-width: max-content;
+}
+
+.btn.secundario {
+  background: var(--c10);
+  color: var(--c2);
+}
+
+.btn.secundario:hover {
+  background: var(--c9);
 }
 
 .link {
