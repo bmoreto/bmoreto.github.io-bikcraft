@@ -3,8 +3,6 @@
 @import url(./fonts.css);
 @import url(./colors.css);
 @import url(./header.css);
-@import url(./escolha.css);
-@import url(./seguros.css);
 @import url(./footer.css);
 @import url(./home/introducao.css);
 @import url(./home/tecnologia.css);
@@ -12,6 +10,9 @@
 @import url(./home/depoimento.css);
 @import url(./termos/termos.css);
 @import url(./bicicletas/bicicletas.css);
+@import url(./bicicletas/escolha.css);
+@import url(./bicicleta/bicicleta-interna.css);
+@import url(./bicicleta/seguro.css);
 @import url(./seguros/seguros.css);
 @import url(./seguros/perguntas.css);
 @import url(./seguros/vantagens.css);
