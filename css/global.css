@@ -28,6 +28,8 @@ a {
   text-transform: uppercase;
   border-radius: 4px;
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 
 .btn.secundario {
