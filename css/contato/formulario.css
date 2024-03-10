@@ -1,22 +1,18 @@
-#contato .form {
+.form {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
 
-#contato .col-2 {
-  grid-column: span 2;
-}
-
-#contato .form label {
+.form label {
   display: block;
-  font: 600 1rem/1.5 "Poppins", sans-serif;
+  font: 400 1rem/1.5 "Poppins", sans-serif;
   margin-bottom: 4px;
 }
 
-#contato .form input[type="text"],
-#contato .form input[type="email"],
-#contato .form textarea {
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
   font: 400 1rem/1.5 "Roboto", sans-serif;
   background: var(--c1);
   border: 1px solid var(--c2);
@@ -25,9 +21,9 @@
   width: 100%;
   box-sizing: border-box;
 }
-#contato .form input[type="text"]:focus,
-#contato .form input[type="email"]:focus,
-#contato .form textarea:focus {
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form textarea:focus {
   outline: none;
   border-color: var(--p1);
   background: var(--w);
