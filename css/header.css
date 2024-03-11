@@ -35,11 +35,12 @@
   width: 0px;
   background: var(--w);
   margin-top: 4px;
+  position: absolute;
 }
 
-.menu a:hover:after {
+.menu a.ativo::after,
+.menu a:hover::after {
   width: 100%;
-  position: absolute;
 }
 
 @media (max-width: 800px) {
