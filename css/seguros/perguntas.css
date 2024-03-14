@@ -54,7 +54,7 @@
   display: none;
 }
 
-#seguros .perguntas dd.ativa {
+.js #seguros .perguntas dd.ativa {
   display: block;
 }
 
