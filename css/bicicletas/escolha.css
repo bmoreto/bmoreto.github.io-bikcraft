@@ -1,6 +1,6 @@
 .escolha {
-  padding-top: 60px;
-  padding-bottom: 120px;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 .escolha h2 {
@@ -12,7 +12,7 @@
   padding-left: 20px;
 }
 
-.bicicletas-lista {
+.escolha ul {
   display: flex;
   gap: 40px;
   padding: 0 20px 20px 20px;
@@ -23,39 +23,41 @@
   overflow-x: auto;
 }
 
-.bicicletas-lista li {
+.escolha li {
+  flex: 1;
   min-width: 280px;
 }
 
-.bicicletas-lista a {
+.escolha a {
   display: block;
 }
 
-.bicicletas-lista h3 {
+.escolha img {
+  margin-bottom: 16px;
+}
+
+.escolha h3 {
   display: flex;
   align-items: center;
   margin-bottom: 8px;
-  margin-left: 20px;
-  position: relative;
 }
 
-.bicicletas-lista h3::before {
-  position: absolute;
+.escolha h3::before {
   display: inline-block;
   content: "";
   width: 12px;
   height: 8px;
-  left: -20px;
+  margin-right: 8px;
   top: 20px;
   background: var(--p1);
   transition: width 0.2s;
 }
 
-.bicicletas-lista a:hover h3::before {
+.escolha a:hover h3::before {
   width: 24px;
 }
 
-.bicicletas-lista li span {
+.escolha li span {
   padding-left: 20px;
 }
 
@@ -63,7 +65,7 @@
   .escolha {
     padding-bottom: 60px;
   }
-  .bicicletas-lista {
+  .escolha ul {
     gap: 20px;
   }
 }
