@@ -14,7 +14,8 @@
 }
 
 #contato .contato-dados {
-  background: var(--b);
+  background: var(--b) url(../../img/dec/bottom-left.svg) no-repeat bottom 20px
+    left 20px;
   border-radius: 4px 0 0 4px;
 }
 
@@ -63,7 +64,8 @@
 }
 
 #contato .contato-formulario {
-  background: var(--w);
+  background: var(--w) url(../../img/dec/bottom-right.svg) no-repeat bottom 20px
+    right 20px;
   border-radius: 0 4px 4px 0;
 }
 
@@ -77,6 +79,7 @@
   }
   #contato .contato-dados {
     border-radius: 4px 4px 0 0;
+    background: var(--b);
   }
   #contato .contato-formulario {
     border-radius: 0 0 4px 4px;
