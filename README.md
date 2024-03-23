@@ -6,8 +6,6 @@ O layout do Bikcraft é completamente responsivo, garantindo uma experiência co
 
 O Bikcraft é um projeto abrangente que mostra como é possível criar um site atraente e funcional utilizando HTML, CSS e JavaScript. Ele exemplifica as habilidades adquiridas e pode servir como inspiração para futuros projetos.
 
-<img src="./img/projeto/Prototipo/home.png" alt="prototipo home">
-
-<img src="./img/projeto/Final/home.png" alt="final home">
+<img src="./img/projeto/home.png" alt="projeto home">
 
 (https://bmoreto.github.io/bmoreto.github.io-bikcraft/)
