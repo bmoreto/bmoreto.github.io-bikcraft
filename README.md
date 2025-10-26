@@ -52,5 +52,3 @@ This course is ideal for anyone starting in front-end development or web design,
 Bikcraft showcases the process of building a professional, responsive website using only **HTML**, **CSS**, and **JavaScript**, without relying on pre-built frameworks.  
 It reflects my understanding of modern layout techniques, clean code, and usability principles — serving as both a learning milestone and a portfolio example.
 
-```markdown
-![Bikcraft Project Screenshot](./img/screenshot.png)
